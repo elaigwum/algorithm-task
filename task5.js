@@ -10,7 +10,7 @@ function convertFahrToCelsius(val){
   
   
   function checkYuGiOh(n) {
-      if(isNaN(n)) return 'invalid parameter';
+      if(isNaN(n)) return `invalid parameter: ${n}`;
   
       let arr = [];
     
@@ -48,7 +48,6 @@ function convertFahrToCelsius(val){
           }
       }
     
-      console.log(arr);
       return arr;
   }
   
